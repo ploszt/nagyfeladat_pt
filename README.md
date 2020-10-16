@@ -1,5 +1,4 @@
 # nagyfeladat_pt
-Nagyfeladat a JAVA SE alapok oktatás MÁK 2020. szeptember 14-18. után
 
 Készíts egy Java konzol alkalmazást, ami egy webshop kedvezménykezelését szimulálja. 
 Az alábbi kedvezmény típusok léteznek:
