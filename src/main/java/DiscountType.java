@@ -1,11 +1,11 @@
 public enum DiscountType {
-    KETTOTF3ATKAP("Kett≈ët fizet h√°rmat kap"),
+    KETTOTF3ATKAP("Kettıt fizet h·rmat kap"),
     MEGAPACK6000("Megapack 6000"),
-    AKARMI("Ez a harmadik kedvezm√©ny");
+    AKARMI("Ez a harmadik kedvezmÈny");
 
     private final String discountName;
 
-    private DiscountType(String name) {
+    DiscountType(String name) {
         this.discountName = name;
     }
 
