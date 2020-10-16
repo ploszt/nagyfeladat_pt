@@ -1,6 +1,6 @@
 # nagyfeladat_pt
-Nagyfeladat a JAVA SE alapok oktatás után MÁK/PT
-/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+Nagyfeladat a JAVA SE alapok oktatás 2020. szeptember 12-18. után / MÁK
+
 Készíts egy Java konzol alkalmazást, ami egy webshop kedvezménykezelését szimulálja. 
 Az alábbi kedvezmény típusok léteznek:
 
@@ -27,4 +27,3 @@ A terméklista fix, az alábbi termékek léteznek (a kódban legyen beégetve):
 Az alkalmazás kérje be a konzolon termékenként a termékek darabszámát. A válaszban
 jelenítse meg az eredeti bekért adatokat a megadott darabszámokkal, ez alá írja ki a kosár eredeti
 árát, kedvezményes árát és a kedvezmény típus nevét
-\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
