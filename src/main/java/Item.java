@@ -1,5 +1,5 @@
 public class Item extends Products {
-    private int amount;
+    private final int amount;
 
     public Item(String name, double price, DiscountType discount, int amount) {
         super(name, price, discount);

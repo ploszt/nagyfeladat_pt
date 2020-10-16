@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Basket {
 
-    private List<Item> products = new ArrayList<>();
+    private final List<Item> products = new ArrayList<>();
 
     public void addProduct(Item product) {
         products.add(product);

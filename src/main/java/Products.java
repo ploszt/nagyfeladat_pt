@@ -1,7 +1,7 @@
 public abstract class Products {
-    private String name;
-    private double price;
-    private DiscountType discount;
+    private final String name;
+    private final double price;
+    private final DiscountType discount;
 
     public Products(String name, double price, DiscountType discount) {
         this.name = name;

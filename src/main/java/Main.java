@@ -7,8 +7,7 @@ public class Main {
         Basket b = new Basket();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Üdv, a butikban!");
-        System.out.println(" ");
+        System.out.println("Üdv, a butikban!\n");
 
         try {
             System.out.println("Mennyi téliszalámit kíván vásárolni? ");
@@ -40,23 +39,19 @@ public class Main {
                 throw new InputMismatchException();
             }
 
-            System.out.println(" ");
-            System.out.println("A kosár tartalma:");
+            System.out.println("\nA kosár tartalma:");
             System.out.println("-----------------");
             for (Item element : b.getProducts()) {
                 System.out.println(element.getName() + " - Darabszám: " + element.getAmount());
             }
 
-            System.out.println("");
-            System.out.println(getTotal(b));
+            System.out.println('\n' + getTotal(b));
 
         } catch (InputMismatchException ex) {
-            System.out.println(" ");
-            System.out.println("Nem jól adta meg a bekért adatot!");
+            System.out.println("\nNem jól adta meg a bekért adatot!");
         }
 
-        System.out.println(" ");
-        System.out.println("Viszlát!");
+        System.out.println("\nViszlát!");
     }
 
     public static String getTotal(Basket bs) {
